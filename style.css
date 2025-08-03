@@ -1,0 +1,108 @@
+@import url(`https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap`);body{
+    margin: 0;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Quicksand' , sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+    display: grid;
+
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: 50px 1fr 1fr 1fr 100px;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.container div{
+    padding: 10px;
+    
+}
+.Header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: inline-flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: black;
+    align-items: center;
+    
+}
+.Header h3{
+    color: rgb(184, 178, 178);
+}
+.Header nav{
+    color: white;
+    font-weight: normal;
+    
+}
+.Header nav a{
+    text-decoration: none;
+}
+.Header nav a:hover{
+    color: rgb(228, 18, 18);
+}
+.Home{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-image: url(techdesign.png);
+    background-position: center;
+    background-size: 100%;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.About{
+    background-color: black;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+.About h4{
+    font-weight: lighter;
+    font-size: smaller;
+
+}
+.About .h3{
+    text-align: center;
+}
+.Education{
+    background-image:url(system.jpg) ;
+    background-position: center;
+    background-size: 100%;
+     grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    color: white;
+}
+.Education h5{font-weight: lighter; font-size: small;}
+.Skill{
+    background-color: black;
+    color: white;
+     grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+.Skill h5{font-weight: lighter;
+    font-size: small;
+}
+.Project{
+    background-image: url(laptop22.png) ;
+    background-position: center;
+    background-size: 100%;
+    color: white;
+     grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+.Contact{
+    background-color: black;
+    color: white;
+     grid-column-start: 1;
+    grid-column-end: 4;
+    align-items: center;
+    color: white;
+}
